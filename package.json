@@ -6,8 +6,7 @@
   "scripts": {
     "test": "istanbul cover _mocha",
     "start": "index.js",
-    "lint": "eslint --fix config lib middlewares models routes test",
-    "heroku" :"NODE_ENV = production node index"
+    "lint": "eslint --fix config lib middlewares models routes test"
   },
   "author": "nswbmw",
   "license": "MIT",
